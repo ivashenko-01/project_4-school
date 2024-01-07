@@ -480,9 +480,11 @@ font-size: var(--button-font-size);
 
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   
-  max-width: 350px;
+  max-width: 450px;
+
+  height: auto;
 }
 
 .section-variation__item-title {

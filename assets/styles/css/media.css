@@ -86,6 +86,10 @@
     padding: 25px 0;
   }
 
+  .section-variation__item {
+    max-width: 250px;
+  }
+
 }
 
 /*  -- =============== АДАПТИВ ПОД СМАРТФОНЫ =============== --*/
@@ -176,9 +180,6 @@
     min-height: 100px;
   }
 
-  .section-variation__item {
-    max-width: 250px;
-  }
 
   .section-variation__item-money {
     font-size: 10px;
