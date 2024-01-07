@@ -311,6 +311,7 @@ font-size: var(--button-font-size);
   display: flex;
   flex-direction: column;
   gap: 20px;
+
 }
 
 .section-audience__items li p:nth-child(1) {
@@ -479,7 +480,7 @@ font-size: var(--button-font-size);
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   
   max-width: 350px;
 }

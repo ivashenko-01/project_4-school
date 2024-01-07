@@ -27,14 +27,14 @@ const swiperVariation = new Swiper('.swiper-variation', {
     
     grabCursor: true,
   
-    // centeredSlides: 'auto',
+    centeredSlides: 'auto',
     slidesPerView: 'auto',
     spaceBetween: 30,
   
-    autoplay: {
-        delay: 6000,
-        disableOnInteraction: true,
-    },
+    // autoplay: {
+    //     delay: 3000,
+    //     disableOnInteraction: true,
+    // },
   
     // pagination: {
     //     el: '.swiper-pagination',

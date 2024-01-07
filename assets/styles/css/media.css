@@ -113,6 +113,10 @@
   
   }
 
+  .header {
+    padding-top: 5vw;
+  }
+
   .header-top {
     display: none;
   }
@@ -129,8 +133,20 @@
     width: 100%;
   }
   
-  .section-preview__images {
+  /* .section-preview__images {
     display: none;
+  } */
+
+  .section-preview__wrapper {
+    flex-direction: column;
+  }
+
+  .section-preview__images {
+    margin-bottom: 5vw;
+  }
+
+  .section-preview__wrapper {
+    gap: 3vw;
   }
 
   .stages-comfort__number {
@@ -156,6 +172,18 @@
     margin-bottom: 10px;
   }
 
+  .section-comfort__stage {
+    min-height: 100px;
+  }
+
+  .section-variation__item {
+    max-width: 250px;
+  }
+
+  .section-variation__item-money {
+    font-size: 10px;
+  }
+
 
 }
 
@@ -163,6 +191,28 @@
   .payday-progress__info-title {
     font-size: 12px;
   }
+
+  .payday-progress__info {
+    padding: 10px 15px;
+  }
+
+  .payday-progress__info-junior {
+    max-width: 40vw;
+  }
+
+  .payday-progress__info-middle {
+    max-width: 45vw;
+  }
+
+  .payday-progress__info-senior {
+    max-width: 50vw;
+  }
+
+  .section-audience__items li {
+  max-width: 250px;
+  }
+
+  
 }
 
 @media (max-width: 320px) {
