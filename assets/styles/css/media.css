@@ -30,28 +30,6 @@
 
 @media (max-width: 768px) {
 
-  :root {
-    
-    /* -- =============== FONT AND TYPOGRAPHY =============== -- */
-    /* -- .5rem = 8px | 1rem = 16px | 2rem = 32px -- */
-    --body-font: 'Poppins', sans-serif;
-  
-    --body-font-size: 0.75rem; /* 12px */
-  
-    --h1-font-size: 32px; /* 2rem */
-    --h2-font-size: 24px; /* 1.5rem */
-    --h3-font-size: 20px; /* 1.25rem */
-    --h4-font-size: 16px; /* 1rem */
-    --h5-font-size: 14px; /* 0.875rem */
-    --h6-font-size: 12px; /* 0.75rem */
-  
-    --text-font-size: 12px; /* 0.75rem */
-    --description-font-size: 10px; /* 0.625rem */
-  
-    --button-font-size: 12px; /* 0.75rem */
-  
-  }
-
   .header-bottom__nav {
     display: none;
   }
@@ -62,9 +40,9 @@
     max-height: 75px;
   }
 
-  .section-comfort__text-title {
+  /* .section-comfort__text-title {
     font-size: 18px;
-  }
+  } */
 
   .section-comfort__stage {
     gap: 20px;
@@ -90,32 +68,21 @@
     max-width: 250px;
   }
 
+  .section-feedback__button {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .section-feedback__assent {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
 }
 
 /*  -- =============== АДАПТИВ ПОД СМАРТФОНЫ =============== --*/
 @media (max-width: 480px) {
 
-  :root {
-    
-    /* -- =============== FONT AND TYPOGRAPHY =============== -- */
-    /* -- .5rem = 8px | 1rem = 16px | 2rem = 32px -- */
-    --body-font: 'Poppins', sans-serif;
-  
-    --body-font-size: 0.625rem; /* 10px */
-  
-    --h1-font-size: 24px; /* 1.5rem */
-    --h2-font-size: 20px; /* 1.25rem */
-    --h3-font-size: 16px; /* 1rem */
-    --h4-font-size: 14px; /* 0.875rem */
-    --h5-font-size: 12px; /* 0.75rem */
-    --h6-font-size: 10px; /* 0.625rem */
-  
-    --text-font-size: 10px; /* 0.625rem */
-    --description-font-size: 8px; /* 0.5rem */
-  
-    --button-font-size: 10px; /* 0.625rem */
-  
-  }
 
   .header {
     padding-top: 5vw;
@@ -126,11 +93,11 @@
   }
 
   .section-preview__content-title {
-    text-align: center;
+    text-align: left;
   }
 
   .section-preview__content-description {
-    text-align: center;
+    text-align: left;
   }
 
   .section-preview__content-button {
@@ -159,16 +126,16 @@
     max-height: 35px;
   }
 
-  .section-comfort__text-title {
+  /* .section-comfort__text-title {
     font-size: 14px;
-  }
+  } */
 
   .payday-progress__info-title {
     font-size: 14px;
   }
 
   .section-feedback__assent {
-    font-size: 8px;
+    /* font-size: 8px; */
     text-align: center;
   }
 
@@ -177,14 +144,37 @@
   }
 
   .section-comfort__stage {
-    min-height: 100px;
+    min-height: 120px;
   }
 
 
-  .section-variation__item-money {
+  /* .section-variation__item-money {
     font-size: 10px;
+  } */
+
+  .section-payday__wrapper {
+    padding: 25px;
   }
 
+  .payday-progress__info {
+    gap: 5px;
+  }
+
+  .payday-progress__info-junior {
+    max-width: 45vw;
+  }
+
+  .payday-progress__info-middle {
+    max-width: 50vw;
+  }
+
+  .payday-progress__info-senior {
+    max-width: 55vw;
+  }
+
+  .stages-comfort__line {
+    width: 5px;
+  }
 
 }
 
@@ -195,18 +185,6 @@
 
   .payday-progress__info {
     padding: 10px 15px;
-  }
-
-  .payday-progress__info-junior {
-    max-width: 40vw;
-  }
-
-  .payday-progress__info-middle {
-    max-width: 45vw;
-  }
-
-  .payday-progress__info-senior {
-    max-width: 50vw;
   }
 
   .section-audience__items li {
