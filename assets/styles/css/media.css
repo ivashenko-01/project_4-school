@@ -28,11 +28,22 @@
 
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 860px) {
   .header-bottom__nav {
     display: none;
   }
+}
+
+/* @media (min-width: 768px) {
+  .section-variation__items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+} */
+
+@media (max-width: 768px) {
+
 
   .stages-comfort__number {
     font-size: 32px;
@@ -81,6 +92,12 @@
 }
 
 /*  -- =============== АДАПТИВ ПОД СМАРТФОНЫ =============== --*/
+@media (max-width: 600px) {
+  .header-top {
+    display: none;
+  }
+
+}
 @media (max-width: 480px) {
 
 
@@ -88,9 +105,7 @@
     padding-top: 5vw;
   }
 
-  .header-top {
-    display: none;
-  }
+  
 
   .section-preview__content-title {
     text-align: left;
@@ -176,6 +191,10 @@
     width: 5px;
   }
 
+  .section-audience__items li {
+    max-width: 250px;
+    }
+
 }
 
 @media (max-width: 360px) {
@@ -187,8 +206,8 @@
     padding: 10px 15px;
   }
 
-  .section-audience__items li {
-  max-width: 250px;
+  .footer-map .container {
+    gap: 30px;
   }
 
   

@@ -64,9 +64,9 @@
   --h1-min-font-size: 24px;
   --h2-min-font-size: 24px;
   --h3-min-font-size: 20px;
-  --h4-min-font-size: 16px;
-  --h5-min-font-size: 14px;
-  --h6-min-font-size: 12px;
+  --h4-min-font-size: 19px;
+  --h5-min-font-size: 18px;
+  --h6-min-font-size: 16px;
 
   --text-font-size: 16px; /* 1rem */
 
@@ -126,7 +126,32 @@ font-size: var(--button-font-size);
   padding: 0 20px;
 }
 
+/* =========================== */
+/* .swiper {
+  border: 1px solid red;
+}
+
+.swiper-wrapper {
+  box-sizing: content-box;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.swiper-slide {
+  border: 1px solid green;
+} */
+/* =========================== */
+
 /* ======= HEADER START ======= */
+
+
+.header {
+  padding: 15px 0;
+}
+
+.header-bottom {
+  padding: 15px 0;
+}
 
 .header-wrapper {
   display: flex;
@@ -311,7 +336,6 @@ font-size: var(--button-font-size);
   /* flex-wrap: wrap; */
   gap: 30px;
 
-  justify-content: space-between;
 }
 
 .section-audience__items li {
@@ -395,6 +419,10 @@ font-size: var(--button-font-size);
 .section-comfort__text-title {
   font-size: clamp(18px, 4vw, 36px);
   font-weight: 700;
+}
+
+.section-comfort__text-description {
+  padding-bottom: 30px;
 }
 
 .section-comfort__stages {
@@ -481,7 +509,7 @@ font-size: var(--button-font-size);
 .section-variation__items {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -506,6 +534,7 @@ font-size: var(--button-font-size);
   text-align: center;
 
   margin-bottom: 20px;
+
 }
 
 .section-variation__item-description {
@@ -645,6 +674,16 @@ font-size: var(--button-font-size);
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.footer-map__company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-map__company-description {
+  max-width: 300px;
 }
 
 .footer-map__sections {
